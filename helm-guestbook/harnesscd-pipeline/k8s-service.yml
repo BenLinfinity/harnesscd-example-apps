@@ -14,7 +14,7 @@ service:
               store:
                 type: Github
                 spec:
-                  connectorRef: harness_gitconnector
+                  connectorRef: harnessgitconnector
                   gitFetchType: Branch
                   folderPath: /helm-guestbook
                   repoName: harnesscd-example-apps
