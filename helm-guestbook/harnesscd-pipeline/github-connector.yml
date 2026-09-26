@@ -3,17 +3,17 @@ connector:
   identifier: harnessgitconnector
   description: ""
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: Bens_Harness
   type: Github
   spec:
-    url: https://github.com/GITHUB_USERNAME/
+    url: https://github.com/BenLinfinity
     validationRepo: harnesscd-example-apps
     authentication:
       type: Http
       spec:
         type: UsernameToken
         spec:
-          username: GITHUB_USERNAME
+          username: BenLinfinity
           tokenRef: harness_gitpat
     apiAccess:
       type: Token
